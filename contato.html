@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>EBank</title>
+</head>
+
+<body>
+
+
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-bank-banking-and-finance-kiranshastry-gradient-kiranshastry.png"
+                width="30" height="30" class="d-inline-block align-top" alt="">
+            EBank
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="siteCompleto.html">Página inicial <span class="sr-only">(Página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paraVoce.html">Para você</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paraSeuNegocio.html">Para seu negócio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eBank.html">O EBank</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="redessociais.html">Redes sociais</a>
+                        <a class="dropdown-item" href="contato.html">Deixe um recado</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /BARRA DE NAVEGAÇÃO -->
+
+    <!--Formulário de contato-->
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em contato com a gente
+                </h4>
+            </div>
+        </div>
+
+
+        
+            <form>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer01">Primeiro nome</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome"
+                            value="Mark" required>
+                        <div class="valid-feedback">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer02">Sobrenome</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome"
+                            value="Otto" required>
+                        <div class="valid-feedback">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServerUsername">Usuário</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                            </div>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                                placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
+                            <div class="invalid-feedback">
+                                Por favor, escolha um nome de usuário.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Cidade</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor, informe uma cidade válida.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Estado</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor, informe um estado válido.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer05">CEP</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="CEP"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor, informe um CEP válido.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Concordo com os termos e condições
+                        </label>
+                        <div class="invalid-feedback">
+                            Você deve concordar, antes de continuar.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+
+                <hr>
+
+                <div>
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
+                        width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+
+            </form>
+
+            
+        
+
+        <!--/Formulário de contato-->
+
+        <!--Rodapé-->
+        <hr>
+        <footer>
+
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <a href="mailto:robertwtavares@gmail.com" target="_blank" class="p-3">
+                        <img class="tm-social" src="https://img.icons8.com/ios-filled/30/000000/apple-mail.png"
+                            alt="Logo do Email">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/robertwtm" target="_blank" class="p-3">
+                        <img class="tm-social" src="https://img.icons8.com/ios-filled/30/000000/linkedin.png"
+                            alt="Logo do Linkedin">
+                    </a>
+
+                    <a href="https://www.instagram.com/robertwtm/" target="_blank" class="p-3">
+                        <img class="tm-social"
+                            src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/30/000000/external-camera-photography-kiranshastry-solid-kiranshastry.png"
+                            alt="Logo do Intagram">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Todos os direitos reservados: Robert &copy
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--/Rodapé-->
+
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <!-- /jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+</body>
+
+
+
+</html>
